@@ -34,3 +34,14 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify live website
+        env:
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          curl --fail --silent --show-error --location --retry 6 --retry-all-errors --retry-delay 5 "$SITE_URL" -o /tmp/hana-live.html
+          grep -q 'HANA Media House' /tmp/hana-live.html
+          grep -q 'id="project"' /tmp/hana-live.html
+          for asset in styles.css app.js content.js assets/coast.svg assets/favicon.svg; do
+            curl --fail --silent --show-error --location --retry 3 --retry-all-errors "${SITE_URL}${asset}" -o /dev/null
+          done
+          echo "Live HANA HTML and required assets verified at $SITE_URL"

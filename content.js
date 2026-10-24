@@ -1,0 +1,30 @@
+export const content = {
+ brand:{name:'HANA Media House',eyebrow:'HANA MEDIA HOUSE',line:'Content. Film. Social. AI.',tagline:'Creative Media That Moves Your Brand',heroLines:['Creative Media','That Moves','Your Brand.'],heroEmphasis:'Moves',intro:'We create cinematic visuals, social content, and AI-powered campaigns for brands ready to stand out.',location:'Newport Beach, California',reach:'Based in Newport Beach. Creating across the United States.',phone:'+1 (949) 257-3300',whatsapp:'19492573300'},
+ seo:{title:'HANA Media House | Creative Media in Newport Beach',description:'Photography, video production, social media, motion graphics and AI-powered content. Based in Newport Beach, serving Orange County and brands across the United States.',siteUrl:''},
+ // Add verified social URLs here. Empty values are intentionally not displayed.
+ social:{instagram:'',linkedin:'',vimeo:''},
+ nav:[['Home','home'],['Services','services'],['Our Work','work'],['About','about'],['Start a Project','project'],['Contact','contact']],
+ services:[
+ {name:'Photography',icon:'◎',description:'Brand, product, lifestyle, hospitality, food, real-estate, and event photography.',area:'On location · Newport Beach & Orange County'},
+ {name:'Video Production & Editing',icon:'▷',description:'Reels, commercials, social videos, interviews, promotional films, and professional post-production.',area:'Local production · Nationwide remote editing'},
+ {name:'AI Content & Advertising',icon:'✧',description:'AI-generated commercial concepts, product videos, food and dairy advertising, creative visuals, and campaign content.',area:'Remote · Across the United States'},
+ {name:'Social Media Management',icon:'▤',description:'Content calendars, publishing, platform management, community engagement, reporting, and creative direction.',area:'Remote · Across the United States'},
+ {name:'Motion Graphics',icon:'◈',description:'Professional 2D and 3D animation, titles, explainers, product animation, and branded graphics.',area:'Remote · Across the United States'},
+ {name:'Content Strategy',icon:'↗',description:'Campaign planning, creative concepts, scripts, hooks, content systems, and platform strategy.',area:'Remote · Across the United States'}],
+ workIntro:'A space for what comes next. Explore visual directions across our creative disciplines.',
+ categories:['Photography','Video','Social Media','Motion Graphics','AI Advertising','Food & Dairy'],
+ // Illustrative placeholders only. Set placeholder:false after replacing with authorized work.
+ // video: local MP4/WebM path; image: local optimized thumbnail path; alt: descriptive alternative text.
+ portfolio:[
+ {title:'Coastal perspectives',category:'Photography',description:'A visual direction for lifestyle and hospitality photography.',image:'assets/coast.svg',alt:'Original illustration of a Pacific sunset and pier',video:'',placeholder:true},
+ {title:'Stories in motion',category:'Video',description:'A space for a future brand film or short-form production.',image:'assets/film.svg',alt:'Abstract cinematic frames in warm coral and navy',video:'',placeholder:true},
+ {title:'Made for the feed',category:'Social Media',description:'A visual direction for a cohesive social content series.',image:'assets/social.svg',alt:'Editorial social content layouts in ivory and coral',video:'',placeholder:true},
+ {title:'A different dimension',category:'Motion Graphics',description:'A space for future animation and branded motion.',image:'assets/motion.svg',alt:'Abstract teal and coral orbital shapes',video:'',placeholder:true},
+ {title:'Beyond the expected',category:'AI Advertising',description:'A visual direction for an AI-assisted product campaign.',image:'assets/ai.svg',alt:'Abstract luminous coral sphere over a dark pedestal',video:'',placeholder:true},
+ {title:'Fresh possibilities',category:'Food & Dairy',description:'A space for a future food or dairy product advertisement.',image:'assets/food.svg',alt:'Original stylized dairy bottle and sunlit orange shapes',video:'',placeholder:true}],
+ food:{title:'AI Food & Dairy Advertising',description:'Product-focused AI visuals and short-form advertising created for food, beverage, and dairy brands.',cards:[{title:'The fresh perspective',category:'Food & Dairy',description:'Future product-focused short film. Video coming soon.',image:'assets/food.svg',alt:'Stylized milk bottle on a warm ivory background',video:'',placeholder:true},{title:'A taste of possibility',category:'AI Advertising',description:'Future beverage campaign concept. Video coming soon.',image:'assets/ai.svg',alt:'Sculptural coral product concept',video:'',placeholder:true}]},
+ about:'HANA Media House is a Newport Beach creative studio helping brands turn ideas into memorable visual experiences. We combine storytelling, production, social strategy, and emerging AI tools to create content built for today’s audiences.',
+ advantages:['Strategy and production in one place','Local California perspective','Remote nationwide capabilities','Modern AI-assisted creative workflows','Content designed for real business goals'],
+ assistant:{industries:['Hospitality & travel','Food & beverage','Real estate','Retail & products','Professional services','Other'],locations:['Newport Beach / Orange County','Remote / elsewhere in the United States'],engagements:['One-time project','Ongoing monthly work'],timelines:['As soon as possible','Within 2–4 weeks','Within 1–3 months','Flexible / exploring']},
+ copy:{servicesTitle:'One studio. Every angle.',servicesIntro:'From the first idea to the final frame, let’s make something worth paying attention to.',workTitle:'Creative possibilities.',aboutTitle:'California soul.\nA wider perspective.',projectTitle:'Your next chapter\nstarts here.',projectIntro:'Tell us what you have in mind. We’ll turn your answers into a project brief, ready to share on WhatsApp.',contactTitle:'Good things start\nwith a conversation.',contactNote:'Your message opens in WhatsApp. Nothing is submitted or stored on this website.',footer:'© HANA Media House. All rights reserved.'}
+};

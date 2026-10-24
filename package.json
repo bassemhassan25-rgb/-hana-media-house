@@ -1,0 +1,1 @@
+{"name":"hana-media-house","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"node scripts/serve.mjs","build":"node scripts/build.mjs","check":"node --check app.js && node --check content.js && node scripts/check.mjs","test":"node --test scripts/test.mjs"},"engines":{"node":">=20"}}

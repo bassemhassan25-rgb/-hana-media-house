@@ -21,3 +21,6 @@
 
 /* Healthcare work stays separate from Gulf, restaurant and AI portfolios. */
 .healthcare-section{background:#0d222b;border-top:1px solid #344b51}.healthcare-section h2{max-width:700px}.healthcare-section .eyebrow{color:#dfb291}.healthcare-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}.healthcare-card{min-width:0;max-width:360px}.healthcare-card .category{color:#dfb291}.healthcare-card h3{font-size:22px}.healthcare-card>p:last-child{font-size:13px;color:#e2d6c2}@media(max-width:1000px){.healthcare-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:540px){.healthcare-grid{grid-template-columns:1fr;gap:40px}.healthcare-card{width:100%;margin-inline:auto}}
+
+/* Genuine Gulf fitness/sports videography, with an unlimited append-only gallery. */
+.fitness-section{background:#10272f;border-top:1px solid #344b51}.fitness-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}.fitness-card{min-width:0}.fitness-card h3{font-size:22px}.fitness-card>p:last-child{font-size:13px;color:#e2d6c2}@media(max-width:1000px){.fitness-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:540px){.fitness-grid{grid-template-columns:1fr;gap:40px}.fitness-card{width:100%;max-width:360px;margin-inline:auto}}

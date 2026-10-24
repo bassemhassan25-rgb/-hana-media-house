@@ -24,3 +24,8 @@
 
 /* Genuine Gulf fitness/sports videography, with an unlimited append-only gallery. */
 .fitness-section{background:#10272f;border-top:1px solid #344b51}.fitness-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}.fitness-card{min-width:0}.fitness-card h3{font-size:22px}.fitness-card>p:last-child{font-size:13px;color:#e2d6c2}@media(max-width:1000px){.fitness-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:540px){.fitness-grid{grid-template-columns:1fr;gap:40px}.fitness-card{width:100%;max-width:360px;margin-inline:auto}}
+
+/* About: selectable copy beside artwork, without text overlays. */
+#about{align-items:center;gap:clamp(35px,5vw,80px)}#about .about-art{height:auto;aspect-ratio:1;border-radius:5px}#about .about-art:after{display:none}#about .about-art img{display:block;width:100%;height:100%;object-fit:contain;object-position:center}#about h2{font-size:clamp(36px,3.6vw,54px);letter-spacing:-2px;line-height:1.1}#about .about-copy{font-size:14px;line-height:1.8}#about .advantages{margin:25px 0 30px}#about .advantages li{line-height:1.65}#about .button{margin-top:3px}@media(max-width:760px){#about{gap:32px}#about h2{font-size:38px;letter-spacing:-1.7px}#about .about-art{width:100%;max-width:580px;margin-inline:auto}#about>div:last-child{padding-top:0}}
+#about .about-art{margin:0;aspect-ratio:auto;overflow:visible}#about .about-art img{height:auto;aspect-ratio:1;border-radius:5px}#about figcaption{position:static;padding-top:12px;color:#62736b;font-size:10px;line-height:1.6;letter-spacing:.5px}
+#about .advantages li:before{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:#a74630;vertical-align:middle;margin-right:15px}

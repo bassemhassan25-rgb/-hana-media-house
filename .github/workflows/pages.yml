@@ -45,7 +45,7 @@ jobs:
           grep -q 'id="gulf-projects"' /tmp/hana-live.html
           grep -q 'id="healthcare-wellness"' /tmp/hana-live.html
           grep -q 'id="fitness-sports"' /tmp/hana-live.html
-          for asset in styles.css app.js content.js assets/coast.svg assets/hero-camera.svg assets/favicon.svg; do
+          for asset in styles.css app.js content.js assets/coast.svg assets/hero-camera.svg assets/favicon.svg assets/hana-brand-artwork.webp assets/hana-brand-artwork-640.webp assets/hana-share.jpg; do
             curl --fail --silent --show-error --location --retry 3 --retry-all-errors "${SITE_URL}${asset}" -o /dev/null
           done
           echo "Live HANA HTML and required assets verified at $SITE_URL"
@@ -54,3 +54,13 @@ jobs:
             curl --fail --silent --show-error --head --retry 3 --retry-all-errors "${SITE_URL}${asset}" -o /dev/null
           done
           echo "Live portfolio sections and all configured Gulf, healthcare and fitness video/poster URLs verified."
+          grep -q 'assets/hana-brand-artwork.webp' /tmp/hana-live.html
+          grep -q 'property="og:site_name" content="HANA Media House"' /tmp/hana-live.html
+          grep -q 'property="og:image" content="https://bassemhassan25-rgb.github.io/-hana-media-house/assets/hana-share.jpg"' /tmp/hana-live.html
+          grep -q 'name="twitter:image" content="https://bassemhassan25-rgb.github.io/-hana-media-house/assets/hana-share.jpg"' /tmp/hana-live.html
+          grep -q 'Creative vision.' /tmp/hana-live-content.js
+          grep -q 'International experience.' /tmp/hana-live-content.js
+          echo "Live About artwork/copy and absolute HTTPS Open Graph/Twitter metadata verified."
+          grep -q 'Creative vision.' /tmp/hana-live.html
+          grep -q 'International experience.' /tmp/hana-live.html
+          grep -q 'HANA Media House brings together photography' /tmp/hana-live.html

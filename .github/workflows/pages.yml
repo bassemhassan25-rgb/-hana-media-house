@@ -42,7 +42,13 @@ jobs:
           grep -q 'HANA Media House' /tmp/hana-live.html
           grep -q 'id="project"' /tmp/hana-live.html
           grep -q 'assets/hero-camera.svg' /tmp/hana-live.html
+          grep -q 'id="gulf-projects"' /tmp/hana-live.html
           for asset in styles.css app.js content.js assets/coast.svg assets/hero-camera.svg assets/favicon.svg; do
             curl --fail --silent --show-error --location --retry 3 --retry-all-errors "${SITE_URL}${asset}" -o /dev/null
           done
           echo "Live HANA HTML and required assets verified at $SITE_URL"
+          curl --fail --silent --show-error "${SITE_URL}content.js" -o /tmp/hana-live-content.js
+          grep -oE 'assets/gulf/[a-zA-Z0-9_-]+\.(mp4|webp)' /tmp/hana-live-content.js | sort -u | while read -r asset; do
+            curl --fail --silent --show-error --head --retry 3 --retry-all-errors "${SITE_URL}${asset}" -o /dev/null
+          done
+          echo "Live Gulf Projects section and all configured video/poster URLs verified."

@@ -42,11 +42,17 @@ Keyboard focus styles, a skip link, semantic landmarks, labeled forms, native ra
 
 ## Standalone preview
 
-`output/HANA-preview.html` is a self-contained working preview that can be opened directly in a browser. Regenerate it after edits with:
+`output/HANA-preview.html` is a working preview that can be opened directly in a browser. Keep its generated `output/assets/gulf/` directory alongside it for video playback. Regenerate it after edits with:
 
 ```sh
 npm run build
 node scripts/package-preview.mjs output
 ```
 
-The preview embeds the configuration, JavaScript, styles and artwork. Production hosting should use `dist/` instead.
+The preview embeds the configuration, JavaScript, styles and artwork; videos remain separate local files loaded on click. Production hosting should use `dist/` instead.
+
+## Gulf Projects — Restaurant & Food Content
+
+`content.gulf.items` contains genuine Gulf Region work, separate from the illustrative portfolio and AI food advertising. Append new authorized projects to this array; never replace or remove existing entries when adding work. There is no fixed count. Keep stable unique `id` values, add a local MP4 and an actual-footage WebP thumbnail to `assets/gulf/`, and record the original width, height and duration. Existing uploads use H.264/AAC with fast-start metadata, without re-encoding the picture or audio. Thumbnails and playback preserve the full frame. Native playback controls, an explicit volume slider, mute and fullscreen controls are available in the media dialog. Videos are only mounted/requested after a visitor clicks a project; there is no background video preloading or autoplay. Playback stops and media sources are released when the dialog closes. Mobile volume may also be controlled through the device's hardware volume controls.
+
+Use only “Gulf Region” in site labels and descriptions. These portfolio items do not imply a Gulf branch or U.S. production. Do not infer client names or campaign results. The deferred `1.mp4` is not included and has no placeholder. Add its compressed version later as a new item in this same array once supplied and authorized.

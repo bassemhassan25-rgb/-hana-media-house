@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1100" viewBox="0 0 1400 1100" fill="none">
+<title>Cinematic creative studio</title><desc>An original cinema camera and illuminated lens surrounded by editing frames, social layouts and motion graphics, with a Pacific sunset and pier on its monitor.</desc>
+<defs>
+ <linearGradient id="body" x1="400" y1="350" x2="900" y2="850" gradientUnits="userSpaceOnUse"><stop stop-color="#50616a"/><stop offset=".25" stop-color="#25343e"/><stop offset=".65" stop-color="#101b25"/><stop offset="1" stop-color="#34434b"/></linearGradient>
+ <linearGradient id="edge"><stop stop-color="#a3b6b5"/><stop offset=".45" stop-color="#263c45"/><stop offset="1" stop-color="#ed9574"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1620"/><stop offset=".4" stop-color="#4a5c65"/><stop offset=".48" stop-color="#1b2b36"/><stop offset="1" stop-color="#080f17"/></linearGradient>
+ <radialGradient id="glass" cx=".35" cy=".3"><stop stop-color="#72bbbd"/><stop offset=".2" stop-color="#295e72"/><stop offset=".45" stop-color="#12283e"/><stop offset=".65" stop-color="#1f4855"/><stop offset=".83" stop-color="#122534"/><stop offset="1" stop-color="#050d16"/></radialGradient>
+ <radialGradient id="halo"><stop stop-color="#fa8c63" stop-opacity=".28"/><stop offset=".55" stop-color="#cf765d" stop-opacity=".08"/><stop offset="1" stop-color="#ed8d63" stop-opacity="0"/></radialGradient>
+ <linearGradient id="sunset" x2="0" y2="1"><stop stop-color="#425f6a"/><stop offset=".5" stop-color="#f59c7c"/><stop offset=".65" stop-color="#f2c198"/><stop offset=".66" stop-color="#567f83"/><stop offset="1" stop-color="#1b4655"/></linearGradient>
+ <linearGradient id="beam"><stop stop-color="#ffb082" stop-opacity="0"/><stop offset=".65" stop-color="#ff9b72" stop-opacity=".08"/><stop offset="1" stop-color="#ff9b72" stop-opacity=".3"/></linearGradient>
+ <linearGradient id="teal"><stop stop-color="#81d1c3"/><stop offset="1" stop-color="#1d5967"/></linearGradient>
+ <pattern id="ridges" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M1 0v9" stroke="#99aaab" stroke-opacity=".25" stroke-width="2"/></pattern>
+ <filter id="shadow" x="-.4" y="-.4" width="1.8" height="1.8"><feGaussianBlur stdDeviation="20"/></filter>
+</defs>
+<style>
+.float-a{animation:float-a 4.8s ease-in-out 1}.float-b{animation:float-b 4.8s ease-in-out 1}.lens-light{animation:glow 4.8s ease-in-out 1}.light-ray{animation:light 4.8s ease-in-out 1;transform-origin:900px 620px}
+@keyframes float-a{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}@keyframes float-b{0%,100%{transform:translateY(0)}50%{transform:translateY(12px)}}@keyframes glow{0%,100%{opacity:.5}50%{opacity:1}}@keyframes light{0%,100%{opacity:.4;transform:rotate(0deg)}50%{opacity:1;transform:rotate(3deg)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<!-- Sunset light and fine production-frame details -->
+<ellipse cx="885" cy="570" rx="550" ry="500" fill="url(#halo)"/>
+<g stroke="#547078" stroke-opacity=".3"><path d="M210 235h55m-28-28v55M1260 760h55m-28-28v55M1200 145h40v40M265 850v35h35"/><path d="M360 150h570M1230 320v340" stroke-dasharray="2 12"/></g>
+<path class="light-ray" d="M900 620 1100 110 1390 250Z" fill="url(#beam)"/>
+<path d="M250 934h1070" stroke="#7eaaa7" stroke-opacity=".3"/>
+<path d="M350 945q400-40 850 0" stroke="#5f8a90" stroke-opacity=".15"/>
+<ellipse cx="830" cy="911" rx="380" ry="47" fill="#020b12" opacity=".7" filter="url(#shadow)"/>
+<!-- Floating editing screen with a coastal brand-film scene -->
+<g class="float-a"><g transform="translate(865 155) rotate(8)">
+ <rect width="330" height="242" rx="12" fill="#101f2b" stroke="#6b8a8f" stroke-opacity=".7"/>
+ <path d="M0 26h330" stroke="#536971"/><circle cx="15" cy="13" r="3" fill="#ee9573"/><circle cx="26" cy="13" r="3" fill="#6ca99f"/>
+ <rect x="14" y="38" width="302" height="142" rx="3" fill="url(#sunset)"/>
+ <circle cx="230" cy="92" r="22" fill="#ffe0ab"/>
+ <path d="M125 147 302 124v7l-177 23Zm30 4v20m28-25v24m30-28v20m30-24v22m27-26v20" fill="#1a3543" stroke="#1a3543" stroke-width="3"/>
+ <path d="M250 124V99h34v20m-39-20 21-14 23 14" fill="#233b48"/>
+ <path d="m72 148 23-56v56zm28-6v-40l24 40z" fill="#f7d8b7"/><path d="M67 153h63l-12 8H78z" fill="#193d4d"/>
+ <path d="M20 195h280M20 211h280M20 227h280" stroke="#3b515d"/>
+ <path d="M25 195h67m10 0h83m8 0h95" stroke="#67afa2" stroke-width="8"/><path d="M45 210h105m7 0h114" stroke="#cc826b" stroke-width="8"/><path d="M25 226h185" stroke="#708bba" stroke-width="7"/>
+ <path d="M167 185v52" stroke="#f2dec0" stroke-width="1"/>
+</g></g>
+<!-- Social content card -->
+<g class="float-b"><g transform="translate(1125 590) rotate(12)"><rect width="168" height="242" rx="14" fill="#1d3440" stroke="#6e9a9a"/><circle cx="20" cy="21" r="7" fill="#df9479"/><path d="M36 18h68m-68 7h43" stroke="#83a1a3" stroke-width="3"/><rect x="10" y="40" width="148" height="150" rx="5" fill="#d1c6ac"/><circle cx="116" cy="86" r="42" fill="#e68e70"/><path d="M10 163q70-70 148-13v40H10" fill="#628d88"/><path d="M62 90h40v69H62z" fill="#f5f0dd"/><path d="M68 84h28v10H68" fill="#416e6d"/><path d="M14 207h10m8 0h10m8 0h10M14 223h98" stroke="#9db7b3" stroke-width="3"/></g></g>
+<!-- Motion orbital and film strip accents -->
+<g class="float-b"><g transform="translate(440 300)"><ellipse rx="73" ry="25" transform="rotate(-35)" stroke="#7cbfb1" stroke-width="3"/><ellipse rx="73" ry="25" transform="rotate(35)" stroke="#ed9678" stroke-width="3"/><circle r="19" fill="url(#teal)"/></g></g>
+<g opacity=".65" transform="translate(375 745) rotate(-13)"><rect width="184" height="97" rx="3" stroke="#6f9697"/><path d="M0 15h184M0 82h184" stroke="#6f9697"/><path d="M10 7h164M10 90h164" stroke="#6f9697" stroke-width="5" stroke-dasharray="8 10"/><path d="m78 32 29 17-29 17z" stroke="#ec9a7a" stroke-width="2"/></g>
+<!-- Large original cinema camera: top handle, body, monitor, rails -->
+<g transform="rotate(-8 850 650)">
+ <path d="M570 437v-55q0-20 23-20h169q24 0 24 24v51" stroke="#8f9c9b" stroke-width="14"/>
+ <path d="M572 431v-47q0-15 18-15h166q23 0 23 19v43" stroke="#1b2a35" stroke-width="11"/>
+ <path d="M602 364h120" stroke="#d6987c" stroke-width="2"/>
+ <rect x="654" y="319" width="50" height="28" rx="5" fill="#1d303b" stroke="#66858a"/>
+ <rect x="636" y="270" width="92" height="54" rx="7" fill="#192a36" stroke="#718c91"/>
+ <path d="M650 285h62M650 295h35" stroke="#8fafa9" stroke-width="3"/>
+ <path d="m537 455 58-34h230l85 57-26 282-263 51-84-57z" fill="url(#body)" stroke="url(#edge)" stroke-width="2"/>
+ <path d="M595 421v317l-58 16V455z" fill="#20313c"/>
+ <path d="m596 738 290-43-2 65-263 51-84-57z" fill="#12212b"/>
+ <rect x="608" y="467" width="143" height="103" rx="8" fill="#091621" stroke="#63808a"/>
+ <rect x="619" y="479" width="121" height="79" rx="3" fill="url(#sunset)"/>
+ <path d="M619 532q55-20 121 3v23H619" fill="#274f5d"/><circle cx="712" cy="507" r="14" fill="#f0c49c"/>
+ <path d="M611 597h106M611 610h106M611 623h106" stroke="#091822" stroke-width="6"/>
+ <circle cx="626" cy="671" r="18" fill="url(#metal)" stroke="#77908f"/><circle cx="626" cy="671" r="9" stroke="#c39076"/>
+ <circle cx="679" cy="666" r="9" fill="#131f2a" stroke="#6e8889"/>
+ <rect x="716" y="649" width="23" height="14" rx="3" fill="#d17d66"/>
+ <path d="M548 481v186" stroke="#77918f" stroke-width="3" stroke-dasharray="2 7"/>
+ <path d="M757 443h53l39 28" stroke="#94a6a1" stroke-width="3"/>
+ <!-- Side grip -->
+ <path d="m829 516 74 10 39 45-8 147-53 33-63-23z" fill="#12212c" stroke="#698186" stroke-width="2"/>
+ <path d="m878 551 27 16-5 136-24 13" stroke="#3e5360" stroke-width="15"/>
+ <!-- Lens barrel, in perspective -->
+ <path d="M779 499q63-31 111 9l154 18v265l-154 19q-63 28-111-12z" fill="url(#metal)" stroke="#6e858a" stroke-width="2"/>
+ <path d="M832 500v306M857 506v298M887 509v296" stroke="#090f19" stroke-width="12"/>
+ <path d="M833 505v292M858 510v283" stroke="#73858c" stroke-width="2"/>
+ <path d="M909 520h109v271H909z" fill="url(#ridges)"/>
+ <ellipse cx="1035" cy="656" rx="163" ry="193" fill="#101c29" stroke="#667f87" stroke-width="3"/>
+ <ellipse cx="1044" cy="654" rx="148" ry="177" fill="url(#metal)" stroke="#d28f70" stroke-width="3"/>
+ <ellipse cx="1048" cy="654" rx="130" ry="158" fill="#09121d" stroke="#7c9a9e" stroke-width="2"/>
+ <ellipse cx="1051" cy="654" rx="119" ry="147" fill="url(#glass)"/>
+ <g stroke="#6da5a8" stroke-opacity=".6"><ellipse cx="1051" cy="654" rx="98" ry="122"/><ellipse cx="1051" cy="654" rx="75" ry="94"/><ellipse cx="1051" cy="654" rx="50" ry="64"/></g>
+ <path d="m1023 589 52-1 30 45-11 52-49 30-46-28-14-51z" fill="#061321" stroke="#638c94" stroke-opacity=".5"/>
+ <ellipse class="lens-light" cx="1020" cy="590" rx="43" ry="67" transform="rotate(35 1020 590)" fill="#85d0cd" opacity=".5"/>
+ <path class="lens-light" d="M1124 558q65 112 0 220" stroke="#f5a07c" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+ <path d="M969 521q77-48 126 0M969 786q77 48 126 0" stroke="#a1b3b0" stroke-width="2"/>
+ <path d="M910 655h281" stroke="#9ad5d0" stroke-opacity=".12"/>
+ <path d="M1038 504v300" stroke="#9ad5d0" stroke-opacity=".1"/>
+ <!-- Support rails and tripod mount -->
+ <path d="m604 821 456-44" stroke="#0a151f" stroke-width="22" stroke-linecap="round"/><path d="m604 817 456-44" stroke="#65808b" stroke-width="5" stroke-linecap="round"/>
+ <path d="m637 852 422-40" stroke="#14232e" stroke-width="18" stroke-linecap="round"/><path d="m637 848 422-40" stroke="#879995" stroke-width="3" stroke-linecap="round"/>
+ <path d="M759 799v65l101 6 34-50v-32" fill="#182c39" stroke="#617e84"/>
+ <path d="m790 870-12 64h75l-14-64" fill="url(#metal)"/>
+</g>
+<!-- Focus brackets and quiet waveform -->
+<g stroke="#efb08a" stroke-width="2" opacity=".7"><path d="M952 473h-24v24m251-24h24v24M928 783v24h24m251-24v24h-24"/></g>
+<g stroke="#71a49e" stroke-width="2" opacity=".6"><path d="M1065 927v10m8-19v28m8-35v42m8-32v22m8-44v67m8-56v43m8-34v25m8-44v61m8-51v40m8-29v18m8-14v10"/></g>
+</svg>
